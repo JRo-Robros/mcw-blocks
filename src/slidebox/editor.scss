@@ -1,0 +1,15 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-mcw-blocks-slidebox {
+  background: linear-gradient(#eee, #eeeeff);
+  padding: 1em
+}
+.wp-block-mcw-blocks-slidebox>.editor-inner-blocks>.editor-block-list__layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}

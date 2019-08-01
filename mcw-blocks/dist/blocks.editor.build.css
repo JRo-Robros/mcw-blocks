@@ -1,0 +1,9 @@
+.wp-block-mcw-blocks-accordion-trigger{outline:solid 1px #aaa;background:#ccc}.wp-block-mcw-blocks-accordion-trigger>p{max-width:100%;text-align:center}
+.wp-block-mcw-blocks-accordion-content{height:auto !important;overflow-y:auto}.wp-block-mcw-blocks-accordion-content>p{max-width:100%;text-align:center}
+.wp-block-mcw-blocks-accordion{background:#bada55;border:0.2rem solid #292929;color:#292929;margin:0 auto;max-width:100%}
+.wp-block-mcw-blocks-accordion-content{height:auto !important;overflow-y:auto}
+.wp-block-mcw-blocks-slidebox{background:-webkit-gradient(linear, left top, left bottom, from(#eee), to(#eef));background:-webkit-linear-gradient(#eee, #eef);background:-o-linear-gradient(#eee, #eef);background:linear-gradient(#eee, #eef);padding:1em}.wp-block-mcw-blocks-slidebox>.editor-inner-blocks>.editor-block-list__layout{display:grid;grid-template-columns:50% 50%}
+.wp-block-mcw-blocks-slidebox-holder{outline:dashed 5px black}
+.wp-block-mcw-blocks-parallax{outline:dashed 1px #bbb;padding:0 .5rem}
+.wp-block-mcw-blocks-slide{outline:dashed 1px rosybrown;padding:0 .5rem}
+.wp-block-mcw-blocks-slider{outline:solid 1px coral}

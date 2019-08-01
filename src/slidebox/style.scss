@@ -1,0 +1,49 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+body:not(.wp-admin){
+  .wp-block-mcw-blocks-slidebox-holder{
+    display: grid;
+    place-items: center;
+  }
+  @media only screen and (min-width: 1100px){
+    .wp-block-mcw-blocks-slidebox-holder{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .wp-block-mcw-blocks-slidebox{
+      display: grid;
+      grid-template-columns: 270px 270px;
+      height: 270px;
+      width: 270px;
+      transition: width 250ms linear;
+      margin: 10px;
+    }
+
+    .wp-block-mcw-blocks-slidebox.open{
+      width: 540px;
+    }
+    .wp-block-mcw-blocks-slidebox-img{
+      z-index: 1;
+    }
+    .wp-block-mcw-blocks-slidebox-content{
+      overflow: hidden;
+      position: relative;
+      min-width: 270px;
+      height: 270px;
+      display: grid;
+      z-index: 0;
+      transform: translatex(-270px);
+      transition: all 250ms linear;
+    }
+
+    .wp-block-mcw-blocks-slidebox.open .wp-block-mcw-blocks-slidebox-content{
+      transform: translatex(0px);
+    }
+  }
+}

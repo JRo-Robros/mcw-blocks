@@ -1,0 +1,155 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+.wp-block-mcw-blocks-accordion-trigger {
+  outline: solid 1px #aaa;
+  background: #ccc; }
+  .wp-block-mcw-blocks-accordion-trigger > p {
+    max-width: 100%;
+    text-align: center; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mcw-blocks-accordion-content {
+  height: auto !important;
+  overflow-y: auto; }
+  .wp-block-mcw-blocks-accordion-content > p {
+    max-width: 100%;
+    text-align: center; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mcw-blocks-accordion {
+  background: #bada55;
+  border: 0.2rem solid #292929;
+  color: #292929;
+  margin: 0 auto;
+  max-width: 100%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mcw-blocks-accordion-content {
+  height: auto !important;
+  overflow-y: auto; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mcw-blocks-slidebox {
+  background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#eeeeff));
+  background: -webkit-linear-gradient(#eee, #eeeeff);
+  background: -o-linear-gradient(#eee, #eeeeff);
+  background: linear-gradient(#eee, #eeeeff);
+  padding: 1em; }
+
+.wp-block-mcw-blocks-slidebox > .editor-inner-blocks > .editor-block-list__layout {
+  display: grid;
+  grid-template-columns: 50% 50%; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mcw-blocks-slidebox-holder {
+  outline: dashed 5px black; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mcw-blocks-parallax {
+  outline: dashed 1px #bbb;
+  padding: 0 .5rem; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mcw-blocks-slide {
+  outline: dashed 1px rosybrown;
+  padding: 0 .5rem; }
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+.wp-block-mcw-blocks-slider {
+  outline: solid 1px coral; }

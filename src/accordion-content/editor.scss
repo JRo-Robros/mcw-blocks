@@ -1,0 +1,15 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .wp-block-mcw-blocks-accordion-content{
+  height: auto!important;
+  overflow-y: auto;
+  &>p{
+    max-width: 100%;
+    text-align: center;
+  }
+}
